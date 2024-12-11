@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container py-5">
+    <div class="row justify-content-center">
+    <div class="col-md-6">
+    <div class="card shadow">
+    <div class="card-body">
+    <h2 class="text-center text-primary">To-Do List</h2>
+    <div class="input-group my-4">
+    <input id="taskInput" type="text" class="form-control" placeholder="Enter a new task">
+    <div class="input-group-append">
+    <button id="addTaskBtn" class="btn btn-success">Add</button>
+    </div>
+    </div>
+    <ul id="taskList" class="list-group"></ul>
+    <div id="noTaskMessage" class="text-center text-muted mt-4">No tasks yet...Start adding!</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body 
+{
+    background-color: #f3cc88;
+    font-family: Arial, sans-serif;
+}
+.card 
+{
+    border-radius: 15px;
+}
+.list-group-item 
+{
+    transition: transform 0.2s, opacity 0.2s;
+}
+.list-group-item:hover 
+{
+    transform: scale(1.02);
+}
+.completed 
+{
+    text-decoration: line-through;
+    color: #6c757d;
+}
+#noTaskMessage 
+{
+    display: none;
+}
+.fade-out 
+{
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+}
